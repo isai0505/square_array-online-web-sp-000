@@ -6,3 +6,10 @@ def square_array(array)
   end
   empty_array
 end
+
+
+def square_array(array)
+  array.map do |number|
+    number ** 2
+  end
+end
